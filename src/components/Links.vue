@@ -1,0 +1,39 @@
+<script setup lang="ts">
+
+</script>
+
+<template>
+  <section>
+    <a href="https://discord.gg/CpwM2R5g">
+      <img src="../assets/pics/links/discord.png" alt="">
+    </a>
+    <a href="https://vk.com/molodec_official">
+      <img src="../assets/pics/links/vk.png" alt="">
+    </a>
+    <a href="https://t.me/molodec_official">
+      <img src="../assets/pics/links/telegram.png" alt="">
+    </a>
+    <a href="https://github.com/MolodecOfficial">
+      <img src="../assets/pics/links/github.png" alt="">
+    </a>
+  </section>
+</template>
+
+<style scoped>
+section {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  top: 50%;
+  transform: translate(0, -50%);
+  z-index: 1;
+  & img {
+    width: 40px;
+    margin: 10px;
+    transition: all 0.15s ease-in-out;
+    &:hover {
+      scale: 1.3;
+    }
+  }
+}
+</style>

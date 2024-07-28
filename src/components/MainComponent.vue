@@ -90,11 +90,11 @@ const technologies: Array<Technology> = [
   align-items: center;
   display: flex;
   flex-direction: row;
-  gap: clamp(60px, 2.5vw, 100px);
+  gap: clamp(10px, 2.5vw, 100px);
   width: 100%;
   & .me {
     margin-top: clamp(0px, 3vw, 50px);
-    width: clamp(250px, 25vw, 400px);
+    width: clamp(150px, 25vw, 400px);
     border-radius: 30px;
   }
 }

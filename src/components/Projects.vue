@@ -86,7 +86,7 @@ const projects: Array<Project> = [
   justify-content: center;
   gap: 40px;
   flex-wrap: wrap;
-  width: 80%;
+  width: clamp(86%, 100%, 80%)
 }
 h1 {
   font-size: clamp(1px, 50px, 50px);

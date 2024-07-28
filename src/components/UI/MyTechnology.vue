@@ -16,13 +16,13 @@ const propsTechnology = defineProps( {
 
 <style scoped>
 .block {
-  width: clamp(60px, 5vw, 5.15vw);
+  width: clamp(48px, 5vw, 5.15vw);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   row-gap: clamp(2px, 1vw, 16px);
-  border-radius: clamp(1px, 1vw, 10px);
+  border-radius: clamp(1px, 0.5vw, 10px);
   & .block_img {
     margin-top: 10px;
     width: clamp(18px, 4vw, 60px);
@@ -30,7 +30,7 @@ const propsTechnology = defineProps( {
   & code {
     color: white;
     margin-bottom: 10px;
-    font-size: clamp(10px, 0.8vw, 15px);
+    font-size: clamp(8px, 0.8vw, 15px);
     cursor: default;
   }
 }

@@ -90,7 +90,7 @@ const technologies: Array<Technology> = [
   align-items: center;
   display: flex;
   flex-direction: row;
-  gap: clamp(10px, 2.5vw, 100px);
+  gap: clamp(50px, 2.5vw, 100px);
   width: 100%;
   & .me {
     margin-top: clamp(0px, 3vw, 50px);
@@ -143,9 +143,9 @@ h6 {
 }
 .blocks {
   display: flex;
-  gap: clamp(6px, 1vw, 20px);
+  gap: clamp(4px, 1vw, 20px);
   flex-wrap: wrap;
-  width: 30vw;
+  width: clamp(4vw, 30vw, 30vw);
 }
 
 

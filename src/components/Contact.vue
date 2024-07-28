@@ -63,6 +63,7 @@ h2 {
 h3 {
   font-size: clamp(5px, 20px, 50px);
   color: white;
+  text-align: center;
 }
 .contact__main {
   gap: 40px;

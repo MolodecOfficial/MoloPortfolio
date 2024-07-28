@@ -56,7 +56,7 @@ const technologies: Array<Technology> = [
   <section class="main_component">
     <div class="main_text">
       <h1>
-        Hi there, I'm <code>Moloдец</code>
+        Hi there, I'm <code> Moloдец</code>
       </h1>
       <div class="jobs">
         <h3>
@@ -90,11 +90,11 @@ const technologies: Array<Technology> = [
   align-items: center;
   display: flex;
   flex-direction: row;
-  gap: 120px;
+  gap: clamp(60px, 2.5vw, 100px);
   width: 100%;
   & .me {
-    margin-top: 50px;
-    width: 400px;
+    margin-top: clamp(0px, 3vw, 50px);
+    width: clamp(250px, 25vw, 400px);
     border-radius: 30px;
   }
 }
@@ -105,23 +105,23 @@ const technologies: Array<Technology> = [
   width: 30vw;
 }
 h1 {
-  font-size: 50px;
+  font-size: clamp(20px, 3vw, 60px);
   font-family: Poppins, sans-serif;
   color: white;
   & code {
-    font-size: 60px;
+    font-size: clamp(20px, 3vw, 60px);
   }
 }
 h3 {
   display: flex;
   justify-content: center;
-  font-size: 24px;
+  font-size: clamp(2px, 1.2vw, 1.5rem);
   font-family: Poppins, sans-serif;
   border: 1px solid wheat;
   background-color: wheat;
   border-radius: 10px;
   width: 300px;
-  height: 60px;
+  height: clamp(20px, 3vw, 60px);
   align-items: center;
   color: black;
 }
@@ -133,7 +133,7 @@ h5 {
   display: flex;
   justify-content: center;
   color: white;
-  font-size: 20px;
+  font-size: clamp(10px, 2vw, 20px);
   font-family: Poppins, sans-serif;
 }
 h6 {
@@ -143,7 +143,7 @@ h6 {
 }
 .blocks {
   display: flex;
-  gap: 20px;
+  gap: clamp(6px, 1vw, 20px);
   flex-wrap: wrap;
   width: 30vw;
 }

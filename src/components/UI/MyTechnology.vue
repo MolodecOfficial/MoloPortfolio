@@ -16,21 +16,21 @@ const propsTechnology = defineProps( {
 
 <style scoped>
 .block {
-  width: 5.15vw;
+  width: clamp(60px, 5vw, 5.15vw);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  row-gap: 16px;
-  border-radius: 10px;
+  row-gap: clamp(2px, 1vw, 16px);
+  border-radius: clamp(1px, 1vw, 10px);
   & .block_img {
     margin-top: 10px;
-    width: 60px;
+    width: clamp(18px, 4vw, 60px);
   }
   & code {
     color: white;
     margin-bottom: 10px;
-    font-size: 15px;
+    font-size: clamp(10px, 0.8vw, 15px);
     cursor: default;
   }
 }

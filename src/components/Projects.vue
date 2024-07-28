@@ -70,7 +70,7 @@ const projects: Array<Project> = [
 .projects-container {
   display: flex;
   flex-direction: column;
-  gap: 13vw;
+  gap: clamp(10px, 40vw, 150px);
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -89,7 +89,7 @@ const projects: Array<Project> = [
   width: 80%;
 }
 h1 {
-  font-size: 40px;
+  font-size: clamp(1px, 50px, 50px);
   color: wheat;
   animation: up-to-down 1s infinite;
 }
@@ -101,7 +101,7 @@ h1 {
 h2 {
   display: flex;
   justify-content: center;
-  font-size: 50px;
+  font-size: clamp(1px, 50px, 50px);
   font-family: Poppins, sans-serif;
   color: wheat;
   z-index: 1;

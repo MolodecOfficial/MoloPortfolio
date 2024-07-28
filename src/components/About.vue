@@ -43,9 +43,9 @@ section {
 .container {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: clamp(80%, 60%, 60%);
   text-align: center;
-  row-gap: 8vw;
+  gap: clamp(10px, 20vw, 120px);
 }
 .header {
   display: flex;
@@ -53,7 +53,7 @@ section {
   gap: 50px;
 }
 h1 {
-  font-size: 40px;
+  font-size: clamp(1px, 36px, 50px);
   color: wheat;
   animation: up-to-down 1s infinite;
 }
@@ -65,7 +65,7 @@ h1 {
 h2 {
   display: flex;
   justify-content: center;
-  font-size: 50px;
+  font-size: clamp(1px, 50px, 50px);
   font-family: Poppins, sans-serif;
   color: wheat;
   z-index: 1;
@@ -79,6 +79,7 @@ h2 {
     display: flex;
     flex-direction: column;
     gap: clamp(10px, 2.5vw, 40px);
+    width: clamp(100vw, 100vw, 100%);
   }
   & img {
     width: clamp(100px, 30vw, 450px);

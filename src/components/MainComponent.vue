@@ -93,8 +93,8 @@ const technologies: Array<Technology> = [
   gap: clamp(40px, 2.5vw, 120px);
   width: 100%;
   & .me {
-    margin-top: clamp(0px, 3vw, 50px);
-    width: clamp(150px, 25vw, 400px);
+    margin-top: clamp(10px, 1vw, 50px);
+    width: clamp(220px, 25vw, 400px);
     border-radius: 30px;
   }
 }

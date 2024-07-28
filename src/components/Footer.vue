@@ -27,14 +27,14 @@
   cursor: default;
   margin-left: 40px;
   color: rgba(142, 142, 142, 0.58);
-  font-size: clamp(6px, 2.5vw, 25px);
+  font-size: clamp(7px, 2.5vw, 25px);
   transition: all 0.1s ease-in-out;
   &:hover {
     color: wheat;
   }
 }
 .footer_menu {
-  gap: 45px;
+  gap: clamp(20px, 2.5vw, 45px);
   margin-right: 40px;
   display: flex;
   justify-content: space-between;

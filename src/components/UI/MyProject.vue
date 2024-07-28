@@ -22,7 +22,7 @@ const propsProject = defineProps( {
 <style scoped>
 .project {
   border-radius: 10px;
-  width: 300px;
+  width: clamp(150px, 30vw, 300px);
   filter: drop-shadow(0 4px 4px #8e8e8e);
   display: flex;
   flex-direction: column;
@@ -34,14 +34,14 @@ const propsProject = defineProps( {
     filter: drop-shadow(0 8px 8px #8e8e8e);
   }
   & .project-image {
-    width: 300px;
+    width: clamp(150px, 30vw, 300px);
     border-radius: 12px;
-    height: 150px;
+    height: clamp(50px, 30vw, 150px);
   }
   & .project-info {
     display: flex;
     flex-direction: row;
-    gap: 100px;
+    gap: clamp(5px, 5vw, 100px);
     margin-bottom: 20px;
     & .project-link {
       font-size: 18px;

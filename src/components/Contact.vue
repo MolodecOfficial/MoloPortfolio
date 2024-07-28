@@ -33,7 +33,7 @@
   width: 100%;
   justify-content: center;
   flex-direction: column;
-  gap: 9vw;
+  gap: clamp(10px, 30vw, 120px);
 }
 .contact__header {
   display: flex;
@@ -55,12 +55,13 @@ h1 {
 h2 {
   display: flex;
   justify-content: center;
-  font-size: 50px;
+  font-size: clamp(10px, 36px, 50px);
   font-family: Poppins, sans-serif;
   color: wheat;
   z-index: 1;
 }
 h3 {
+  font-size: clamp(5px, 20px, 50px);
   color: white;
 }
 .contact__main {
@@ -80,6 +81,9 @@ img {
 }
 section {
   display: flex;
-  gap: 30px;
+  gap: clamp(10px, 30px, 30px);
+  & img {
+    width: clamp(10px, 30px, 50px)
+  }
 }
 </style>

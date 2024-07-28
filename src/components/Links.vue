@@ -36,4 +36,9 @@ section {
     }
   }
 }
+@media screen and (max-width: 480px){
+  section {
+    display: none;
+  }
+}
 </style>

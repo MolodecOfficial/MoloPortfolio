@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="ts" xmlns:color="http://www.w3.org/1999/xhtml">
 
 </script>
 
@@ -11,11 +11,11 @@
       <section class="about-text">
         <article class="about-main-text">
           <p>
-            I decided to focus on frontend development in 2022, where I mastered <b>HTML5</b>, <b>CSS3</b>, and <b>JavaScript</b>.
+            I decided to focus on frontend development in 2022, where I mastered <b style="color: #ec5b02">HTML5</b>, <b style="color: #029aec">CSS3</b>, and <b style="color: #ecc502">JavaScript</b>.
           </p>
           <p>
-            Over time, I became more confident in my skills and started working on real projects. I chose <b>Vue</b> as my primary framework and successfully completed several projects using it. Additionally, I gained experience with <b>React</b>, which allowed me to expand my technological stack and understand the differences between popular libraries and frameworks.
-            Recently, I started actively using TypeScript and TailwindCSS.
+            Over time, I became more confident in my skills and started working on real projects. I chose <b style="color: #17b203">Vue</b> as my primary framework and successfully completed several projects using it. Additionally, I gained experience with <b style="color: #02a6ec">React</b>, which allowed me to expand my technological stack and understand the differences between popular libraries and frameworks.
+            Recently, I started actively using <b style="color: #0151ff">TypeScript</b> and <b style="color: #18e3e3">TailwindCSS</b>.
           </p>
           <p>
             My <a href="https://github.com/MolodecOfficial">GitHub</a> is open for review, where you can check out my projects and evaluate my skills. I am always striving for excellence and am open to new challenges and opportunities.

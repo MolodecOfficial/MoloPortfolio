@@ -48,12 +48,20 @@ const propsProject = defineProps( {
       text-decoration: none;
       color: #b5b5b5;
       font-family: Poppins, sans-serif;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        scale: 1.2;
+      }
     }
     & .project-code {
       font-size: 18px;
       text-decoration: none;
       color: #b5b5b5;
       font-family: Poppins, sans-serif;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        scale: 1.2;
+      }
     }
   }
   & .project-name {

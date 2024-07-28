@@ -90,7 +90,7 @@ const technologies: Array<Technology> = [
   align-items: center;
   display: flex;
   flex-direction: row;
-  gap: clamp(50px, 2.5vw, 100px);
+  gap: clamp(40px, 2.5vw, 120px);
   width: 100%;
   & .me {
     margin-top: clamp(0px, 3vw, 50px);
@@ -115,11 +115,11 @@ h1 {
 h3 {
   display: flex;
   justify-content: center;
-  font-size: clamp(2px, 1.2vw, 1.5rem);
+  font-size: clamp(4px, 1.2vw, 1.5rem);
   font-family: Poppins, sans-serif;
   border: 1px solid wheat;
   background-color: wheat;
-  border-radius: 10px;
+  border-radius: clamp(2px, 1vw, 10px);
   width: 300px;
   height: clamp(20px, 3vw, 60px);
   align-items: center;
@@ -143,9 +143,9 @@ h6 {
 }
 .blocks {
   display: flex;
-  gap: clamp(4px, 1vw, 20px);
+  gap: clamp(6px, 1vw, 20px);
   flex-wrap: wrap;
-  width: clamp(4vw, 30vw, 30vw);
+  width: clamp(32vw, 60vw, 30vw);
 }
 
 

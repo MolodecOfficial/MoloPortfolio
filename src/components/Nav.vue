@@ -27,7 +27,7 @@
   cursor: default;
   margin-left: 40px;
   color: white;
-  font-size: clamp(6px, 2.5vw, 25px);
+  font-size: clamp(7px, 2.5vw, 25px);
   transition: all 0.1s ease-in-out;
   &:hover {
     color: wheat;
@@ -43,7 +43,7 @@
     font-family: Poppins, sans-serif;
     color: white;
     text-decoration: none;
-    font-size: clamp(4px, 1.5vw, 25px);
+    font-size: clamp(8px, 1.5vw, 25px);
     transition: all 0.2s ease-in-out;
     &:hover {
       color: wheat;

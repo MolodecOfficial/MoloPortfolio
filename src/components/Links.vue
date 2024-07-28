@@ -28,7 +28,7 @@ section {
   transform: translate(0, -50%);
   z-index: 1;
   & img {
-    width: clamp(25px, 3.5vw, 40px);;
+    width: clamp(10px, 3.5vw, 40px);;
     margin: 10px;
     transition: all 0.15s ease-in-out;
     &:hover {

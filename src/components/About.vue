@@ -81,7 +81,7 @@ h2 {
     gap: clamp(10px, 2.5vw, 40px);
   }
   & img {
-    width: clamp(100px, 2.5vw, 450px);
+    width: clamp(100px, 30vw, 450px);
   }
 }
 p {

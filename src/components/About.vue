@@ -78,14 +78,14 @@ h2 {
   & .about-main-text {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: clamp(10px, 2.5vw, 40px);
   }
   & img {
-    width: 450px;
+    width: clamp(100px, 2.5vw, 450px);
   }
 }
 p {
-  font-size: 22px;
+  font-size: clamp(10px, 2.5vw, 22px);
   font-family: Poppins, sans-serif;
   letter-spacing: 1px;
   color: white;

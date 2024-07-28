@@ -27,7 +27,7 @@
   cursor: default;
   margin-left: 40px;
   color: rgba(142, 142, 142, 0.58);
-  font-size: 25px;
+  font-size: clamp(6px, 2.5vw, 25px);
   transition: all 0.1s ease-in-out;
   &:hover {
     color: wheat;
@@ -44,7 +44,7 @@
     font-family: Poppins, sans-serif;
     color: rgba(142, 142, 142, 0.58);
     text-decoration: none;
-    font-size: 25px;
+    font-size: clamp(6px, 2.5vw, 25px);
     transition: all 0.2s ease-in-out;
     &:hover {
       color: wheat;

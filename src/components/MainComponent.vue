@@ -115,12 +115,12 @@ h1 {
 h3 {
   display: flex;
   justify-content: center;
-  font-size: clamp(4px, 1.2vw, 1.5rem);
+  font-size: clamp(5px, 1.2vw, 1.5rem);
   font-family: Poppins, sans-serif;
   border: 1px solid wheat;
   background-color: wheat;
   border-radius: clamp(2px, 1vw, 10px);
-  width: 300px;
+  width: clamp(320px, 3vw, 300px);
   height: clamp(20px, 3vw, 60px);
   align-items: center;
   color: black;

@@ -5,16 +5,16 @@
 <template>
   <section>
     <a href="https://discord.gg/CpwM2R5g">
-      <img src="../assets/pics/links/discord.png" alt="">
+      <img src="../../public/links/discord.png" alt="">
     </a>
     <a href="https://vk.com/molodec_official">
-      <img src="../assets/pics/links/vk.png" alt="">
+      <img src="../../public/links/vk.png" alt="">
     </a>
     <a href="https://t.me/molodec_official">
-      <img src="../assets/pics/links/telegram.png" alt="">
+      <img src="../../public/links/telegram.png" alt="">
     </a>
     <a href="https://github.com/MolodecOfficial">
-      <img src="../assets/pics/links/github.png" alt="">
+      <img src="../../public/links/github.png" alt="">
     </a>
   </section>
 </template>

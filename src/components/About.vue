@@ -22,7 +22,7 @@
           </p>
         </article>
         <article>
-          <img src="../assets/pics/img.png" alt="">
+          <img src="../../public/img.png" alt="">
         </article>
       </section>
       <section class="next-text">

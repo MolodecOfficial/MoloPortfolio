@@ -10,43 +10,43 @@ interface Technology {
 const technologies: Array<Technology> = [
   {
     title: "HTML",
-    image: "src/assets/pics/technologies/HTML.png",
+    image: "/technologies/HTML.svg",
   },
   {
     title: "CSS",
-    image: "src/assets/pics/technologies/CSS.png",
+    image: "/technologies/CSS.svg",
   },
   {
     title: "JavaScript",
-    image: "src/assets/pics/technologies/JAVASCRIPT.png",
+    image: "/technologies/JAVASCRIPT.svg",
   },
   {
     title: "TypeScript",
-    image: "src/assets/pics/technologies/TYPESCRIPT.png",
+    image: "/technologies/TYPESCRIPT.svg",
   },
   {
     title: "Vue",
-    image: "src/assets/pics/technologies/VUE.png",
+    image: "/technologies/VUE.svg",
   },
   {
     title: "React",
-    image: "src/assets/pics/technologies/REACT.png",
+    image: "/technologies/REACT.svg",
   },
   {
     title: "Node.JS",
-    image: "src/assets/pics/technologies/NODE.png",
+    image: "/technologies/NODE.svg",
   },
   {
     title: "Git",
-    image: "src/assets/pics/technologies/GIT.png",
+    image: "/technologies/GIT.svg",
   },
   {
     title: "Tailwind",
-    image: "src/assets/pics/technologies/TAILWIND.png",
+    image: "/technologies/TAILWIND.svg",
   },
   {
     title: "SCSS",
-    image: "src/assets/pics/technologies/SCSS.png",
+    image: "/technologies/SCSS.svg",
   }
 ];
 

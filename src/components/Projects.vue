@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-import MyProjects from "./UI/MyProjects.vue";
+import MyProjects from "./UI/MyProject.vue";
 
 interface Project {
   image: string,
@@ -11,37 +11,37 @@ interface Project {
 
 const projects: Array<Project> = [
   {
-    image: "src/assets/pics/projects/bmpland.png",
+    image: "/projects/bmpland.png",
     name: "BMPLand",
     link: "https://bmplandweb.vercel.app/",
     code: "https://github.com/MolodecOfficial/BMPLand"
   },
   {
-    image: "src/assets/pics/projects/canvas.png",
+    image: "/projects/canvas.png",
     name: "Canvas",
     link: "https://canvas-livid-nine.vercel.app/",
     code: "https://github.com/MolodecOfficial/Canvas"
   },
   {
-    image: "src/assets/pics/projects/k-telecom.png",
+    image: "/projects/k-telecom.png",
     name: "K-Telecom",
     link: "https://telecom-seven.vercel.app/",
     code: "https://github.com/MolodecOfficial/K-Telecom"
   },
   {
-    image: "src/assets/pics/projects/organizations.png",
+    image: "/projects/organizations.png",
     name: "Counting-Workers",
     link: "https://counting-workers.vercel.app/",
     code: "https://github.com/MolodecOfficial/Counting-Workers"
   },
   {
-    image: "src/assets/pics/projects/registerform.png",
+    image: "/projects/registerform.png",
     name: "RegisterForm",
     link: "https://github.com/MolodecOfficial",
     code: "https://github.com/MolodecOfficial/RegisterForm"
   },
   {
-    image: "src/assets/pics/projects/authors.png",
+    image: "/projects/authors.png",
     name: "Authors-LGame",
     link: "https://github.com/MolodecOfficial",
     code: "https://github.com/MolodecOfficial/Authors"

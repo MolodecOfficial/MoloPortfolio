@@ -9,8 +9,8 @@
     </div>
     <section class="nav_menu">
       <a href="">Home</a>
+      <a href="">About</a>
       <a href="">Projects</a>
-      <a href="">Technologies</a>
       <a href="">Contact me</a>
     </section>
   </section>

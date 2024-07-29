@@ -4,7 +4,7 @@
   box-sizing: border-box;
   background-color: #030715;
 }
-@media (orientation: portrait) {
+@media (orientation: landscape) {
   body {
     display: none;
   }

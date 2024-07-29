@@ -4,3 +4,8 @@
   box-sizing: border-box;
   background-color: #030715;
 }
+@media (max-width: 600px) {
+  body {
+    orientation: landscape;
+  }
+}

@@ -4,7 +4,12 @@
   box-sizing: border-box;
   background-color: #030715;
 }
-@media (orientation: landscape) {
+@media (max-width: 600px) and (orientation: landscape) {
+  body {
+    display: none;
+  }
+}
+@media (max-height: 600px) {
   body {
     display: none;
   }

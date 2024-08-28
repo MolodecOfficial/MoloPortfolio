@@ -12,5 +12,6 @@
 @media (max-height: 600px) {
   body {
     display: none;
+
   }
 }

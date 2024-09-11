@@ -29,8 +29,8 @@ const technologies: Array<Technology> = [
     image: "/technologies/VUE.svg",
   },
   {
-    title: "React",
-    image: "/technologies/REACT.svg",
+    title: "Nuxt",
+    image: "/technologies/NUXT.svg",
   },
   {
     title: "Node.JS",

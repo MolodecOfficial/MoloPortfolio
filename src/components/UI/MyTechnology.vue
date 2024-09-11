@@ -75,11 +75,11 @@ const propsTechnology = defineProps( {
   }
 }
 & .block:nth-child(6) {
-  filter: drop-shadow(0 4px 2px #06f2fa);
+  filter: drop-shadow(0 4px 2px #00da81);
   transition: all 0.3s ease-in-out;
   &:hover {
     scale: 1.1;
-    filter: drop-shadow(0 8px 4px #06f2fa);
+    filter: drop-shadow(0 8px 4px #00da81);
   }
 }
 & .block:nth-child(7) {
